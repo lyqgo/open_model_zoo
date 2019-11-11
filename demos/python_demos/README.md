@@ -5,7 +5,9 @@ This is the demo application for Language model, which predict next word from pr
 To download the model for IR conversion, please follow the instruction:
  - For UNIX*-like systems:  
     1.Create new directory to store the model:   
-      mkdir lm_1b  
+    ```
+      mkdir lm_1b
+    ```
     2.Go to the lm_1b directory:   
       cd lm_1b  
     3.Download the model GraphDef file:   
