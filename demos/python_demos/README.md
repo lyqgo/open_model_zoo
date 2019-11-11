@@ -3,7 +3,7 @@ Language Model Python* Demo
 
 This is the demo application for Language model, which predict next word from previous input.
 To download the model for IR conversion, please follow the instruction:
- - For UNIX*-like systems:
+ - For UNIX*-like systems:  
     1.Create new directory to store the model:   
       mkdir lm_1b  
     2.Go to the lm_1b directory:   
