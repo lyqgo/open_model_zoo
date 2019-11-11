@@ -96,9 +96,11 @@ The vocabulary file can be downloaded from http://download.tensorflow.org/models
 Demo Output
 ------------
 The application shows the predicted sentence:
+```
 What
 What is
 What is your
 What is your relationship
 What is your relationship with the 
 ...(omitted)
+```
