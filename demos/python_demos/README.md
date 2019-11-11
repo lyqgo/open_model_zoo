@@ -40,7 +40,7 @@ To download the model for IR conversion, please follow the instruction:
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax8  
     ```
  - For Windows*-like systems:  
-    1.Download the model GraphDef file from:http://download.tensorflow.org/models/LM_LSTM_CNN/graph-2016-09-10.pbtxt
+    1.Download the model GraphDef file from:http://download.tensorflow.org/models/LM_LSTM_CNN/graph-2016-09-10.pbtxt  
     2.Download 12 checkpoint shared files from:  
       http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-base  
       http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-char-embedding  
