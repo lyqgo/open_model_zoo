@@ -9,14 +9,23 @@ To download the model for IR conversion, please follow the instruction:
       mkdir lm_1b
     ```
     2.Go to the lm_1b directory:   
-      cd lm_1b  
+    ```
+      cd lm_1b
+    ```
     3.Download the model GraphDef file:   
+    ```
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/graph-2016-09-10.pbtxt  
+    ```  
     4.Create new directory to store 12 checkpoint shared files:   
-      mkdir ckpt  
+    ```
+      mkdir ckpt
+    ```  
     5.Go to the ckpt directory:   
-      cd ckpt  
+    ```
+      cd ckpt
+    ```  
     6.Download 12 checkpoint shared files:  
+    ```
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-base  
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-char-embedding  
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-lstm  
@@ -29,7 +38,7 @@ To download the model for IR conversion, please follow the instruction:
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax6  
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax7  
       wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax8  
-    
+    ```
  - For Windows*-like systems:  
 
    
