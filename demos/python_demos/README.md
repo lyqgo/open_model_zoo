@@ -4,34 +4,34 @@ Language Model Python* Demo
 This is the demo application for Language model, which predict next word from previous input.
 To download the model for IR conversion, please follow the instruction:
  - For UNIX*-like systems:
-    1.Create new directory to store the model: 
-      mkdir lm_1b
-    2.Go to the lm_1b directory: 
-      cd lm_1b
-    3.Download the model GraphDef file: 
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/graph-2016-09-10.pbtxt
-    4.Create new directory to store 12 checkpoint shared files: 
-      mkdir ckpt
-    5.Go to the ckpt directory: 
-      cd ckpt
-    6.Download 12 checkpoint shared files:
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-base
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-char-embedding
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-lstm
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax0
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax1
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax2
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax3
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax4
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax5
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax6
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax7
-      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax8
+    1.Create new directory to store the model:   
+      mkdir lm_1b  
+    2.Go to the lm_1b directory:   
+      cd lm_1b  
+    3.Download the model GraphDef file:   
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/graph-2016-09-10.pbtxt  
+    4.Create new directory to store 12 checkpoint shared files:   
+      mkdir ckpt  
+    5.Go to the ckpt directory:   
+      cd ckpt  
+    6.Download 12 checkpoint shared files:  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-base  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-char-embedding  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-lstm  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax0  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax1  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax2  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax3  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax4  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax5  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax6  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax7  
+      wget http://download.tensorflow.org/models/LM_LSTM_CNN/all_shards-2016-09-10/ckpt-softmax8  
     
- - For Windows*-like systems:
+ - For Windows*-like systems:  
 
    
-To generate the Language Model Intermediate Representation (IR), provide TensorFlow Language Model to the Model Optimizer with parameters:
+To generate the Language Model Intermediate Representation (IR), provide TensorFlow Language Model to the Model Optimizer with parameters:  
 
 ```sh
 python3 ./mo_tf.py
@@ -43,7 +43,7 @@ python3 ./mo_tf.py
 --input 0:char_embedding/Reshape,Variable/read,Variable_1/read    \
 ```
 
-Running
+Running  
 -------
 Running the application with the `-h` option yields the following usage message:
 
